@@ -1,0 +1,53 @@
+body {
+  font-family: courier;
+  background-image: url("landscape.jpg");
+  background-size: cover;
+  padding: 30px;
+}
+.nav {
+  width: 100;
+  float: center;
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+}
+.nav ul li{
+  display:inline-block;
+  height: 120px;
+  width: 120px;
+  background: white;
+  color: blue;
+  float: center;
+  opacity: .0;
+  border-radius: 50;
+  color: DarkOliveGreen;
+  font-size: 20px;
+}
+.nav ul li:hover {
+  opacity:1;
+}
+
+.textcont{
+  background-color: ;
+
+}
+.imgcont{
+  background-color: ;
+  padding: 30px;
+  width: 240px
+}
+.maincontainer{
+display: flex;
+padding: 30px;
+justify-content: center;
+}
+h1 {
+  color: DeepPink;
+}
+#para1 {
+  color: DarkOliveGreen;
+}
+
+#para2 {
+  color: blue;
+}
